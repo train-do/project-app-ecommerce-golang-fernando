@@ -1,0 +1,7 @@
+{"L":"DEBUG","T":"2024-11-24T23:29:52.237+0700","M":"update \"User\" set \"token\" = $1 where (\"email\" ilike $2 or \"phone\" = $3) and \"password\" = $4 returning *"}
+{"L":"INFO","T":"2024-11-24T23:29:52.286+0700","M":"http request middleware","url":"/api/login","duration":"49.8562ms"}
+{"L":"DEBUG","T":"2024-11-24T23:29:55.774+0700","M":"select 1 from \"User\" where \"id\"=$1 and \"token\"=$2"}
+{"L":"INFO","T":"2024-11-24T23:29:55.776+0700","M":"http request middleware","url":"/api/user/logout","duration":"1.3597ms"}
+{"L":"INFO","T":"2024-11-24T23:30:03.960+0700","M":"http request middleware","url":"/api/cart","duration":"0s"}
+{"L":"DEBUG","T":"2024-11-24T23:30:07.437+0700","M":"update \"User\" set \"token\" = $1 where (\"email\" ilike $2 or \"phone\" = $3) and \"password\" = $4 returning *"}
+{"L":"INFO","T":"2024-11-24T23:30:07.446+0700","M":"http request middleware","url":"/api/login","duration":"10.209ms"}
